@@ -1,0 +1,64 @@
+.gamePattern {
+  position: relative;
+  top: -440px;
+  left: 85rem;
+  height: 25rem;
+  width: 30rem;
+  border-radius: 29%;
+  padding: 2.5rem;
+  padding-top: 4rem;
+  text-align: center;
+  background-image: radial-gradient(
+    circle 300px at 8% 89.3%,
+    rgba(20, 157, 208, 1) 0%,
+    rgba(140, 63, 226, 1) 90%
+  );
+  color: #f1f7ff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  visibility: hidden;
+  h2 {
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #b8c6db;
+    font-family: "Concert One", cursive;
+  }
+}
+.icon {
+  font-size: 3.5rem;
+  color: rgb(255, 108, 108);
+  margin-left: 110rem;
+  position: relative;
+  top: -450px;
+}
+.reIcon {
+  position: absolute;
+  top: 755px;
+}
+.toggle-gameP {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s linear;
+  animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,211 @@
+.gamePattern {
+  position: relative;
+  top: -440px;
+  left: 85rem;
+  height: 25rem;
+  width: 30rem;
+  border-radius: 29%;
+  padding: 2.5rem;
+  padding-top: 4rem;
+  text-align: center;
+  background-image: radial-gradient(circle 300px at 8% 89.3%, #149dd0 0%, #8c3fe2 90%);
+  color: #f1f7ff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  visibility: hidden;
+}
+
+.gamePattern h2 {
+  margin: auto;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #b8c6db;
+  font-family: "Concert One", cursive;
+}
+
+.icon {
+  font-size: 3.5rem;
+  color: #ff6c6c;
+  margin-left: 110rem;
+  position: relative;
+  top: -450px;
+}
+
+.reIcon {
+  position: absolute;
+  top: 755px;
+}
+
+.toggle-gameP {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s linear;
+  animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.footer {
+  margin-top: -200px;
+  height: 15rem;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  color: #b8c6db;
+  text-align: center;
+  padding: 20px;
+  padding-top: 5px;
+}
+
+.footer h2 {
+  font-family: "Concert One", cursive;
+  font-size: 2.5rem;
+}
+
+.footer h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  padding: 8px;
+}
+
+.footer .links {
+  margin-left: -100px;
+  margin-bottom: 2rem;
+}
+
+.footer .links .footer-link {
+  text-align: center;
+  font-size: 2rem;
+  padding-left: 5rem;
+}
+
+body {
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+}
+
+body h1 {
+  margin: auto;
+  font-size: 3.8rem;
+  font-weight: bold;
+  color: #b8c6db;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4rem;
+  font-family: "Concert One", cursive;
+}
+
+body .sec1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 8rem;
+}
+
+body .sec2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+body .align {
+  margin-left: 18rem;
+}
+
+body .same {
+  border-top: 20px;
+  border-top-style: solid;
+  border-top-width: 10px;
+  border-top-color: black;
+  border-right: 20px;
+  border-right-style: solid;
+  border-right-width: 10px;
+  border-right-color: black;
+  border-bottom: 20px;
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  border-bottom-color: black;
+  border-left: 20px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  border-left-color: black;
+  width: 14rem;
+  height: 13rem;
+  margin: 1.4rem;
+  border-radius: 20%;
+}
+
+body #red {
+  background-color: #42378f;
+  background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+}
+
+body #blue {
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+
+body #green {
+  background-color: #00b712;
+  background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+}
+
+body #yellow {
+  background: -webkit-gradient(linear, right bottom, left top, color-stop(41%, #ebc400), to(#ff8ab3));
+  background: linear-gradient(to top left, #ebc400 41%, #ff8ab3 100%);
+}
+
+body .pressed {
+  -webkit-box-shadow: 10px 10px 50px white;
+          box-shadow: 10px 10px 50px white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+body .wrong {
+  background-color: #42378f;
+  background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+}
+/*# sourceMappingURL=new.css.map */

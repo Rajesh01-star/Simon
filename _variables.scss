@@ -1,0 +1,27 @@
+$primaryColor: #fef2bf;
+
+//functions
+@mixin centerAlign($toop) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: $toop;
+}
+@mixin border {
+  border-top: 20px;
+  border-top-style: solid;
+  border-top-width: 10px;
+  border-top-color: black;
+  border-right: 20px;
+  border-right-style: solid;
+  border-right-width: 10px;
+  border-right-color: black;
+  border-bottom: 20px;
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  border-bottom-color: black;
+  border-left: 20px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  border-left-color: black;
+}
