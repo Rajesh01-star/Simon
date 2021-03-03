@@ -37,7 +37,7 @@ function checkAnswer(currentLevel) {
     }
   } else {
     //   here we show the user that he/she has gone wrong and they have to start over again.
-    var audio = new Audio("sounds/wrong.mp3");
+    var audio = new Audio("wrong.mp3");
     audio.play();
     document.querySelector(".area").classList.add("wrong");
 
